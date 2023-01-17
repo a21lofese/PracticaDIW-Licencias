@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  padding: 2vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  height: auto;
+  border: 1px solid black;
+  margin: 2vh;
+  padding: 2vh;
+  border-radius: 15px;
+}
+
+ol {
+  margin-left: 4vh;
+}
